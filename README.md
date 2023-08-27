@@ -54,7 +54,9 @@
   
   Cookie：这个是Task脚本获取Cookie用的，Task脚本请在Task文件夹内按需求添加订阅，使用需额外在重写中启用JS-GetCookie，并按脚本中说明获取cookie方可用
 
-  Tiktok枷锁：默认已解锁Tiktok日区，如需改区，本地在[rewrite_local]下方添加(?<=_region=)CN(?=&) url 307 JP  将JP更改成你想改的区域<br>
+  Tiktok枷锁：默认已解锁Tiktok美区，如需改区，本地在[rewrite_local]下方添加(?<=_region=)CN(?=&) url 307 US  将US更改成你想改的区域<br>,TK可能需要登录才能使用
+  tiktok登录方式：只针对iPhone11，自己测试的，需要一个美区账号，下载tiktok（21.1.0）版本，打开之前先设置下网络。
+
   
 ## BoxJS
 
